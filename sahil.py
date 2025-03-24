@@ -11,12 +11,12 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 
 # Bot token
-TOKEN = '7362289727:AAE6RWfho65aJUxMyOSdvxXVBndKGx4QZcc'
+TOKEN = '7272857905:AAEOhUBePwahLVdr7L0-Yk7SHuMJfDeFuM4'
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
 # Admins list
-ADMIN_IDS = [2085082046]  # Replace with actual admin user IDs
+ADMIN_IDS = [6887445774]  # Replace with actual admin user IDs
 
 # File to store user information
 USERS_FILE = 'users.txt'
